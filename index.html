@@ -18,8 +18,8 @@
 <body>
   <header>
     <div class="logo">
-      <a href="">
-        <img src="https://img.shields.io/badge/-dev%20myo-purple" alt="" ></a>
+      <a href="index.html" class="logo__link">
+        <i class="fab fa-connectdevelop  icon-large"></i></a>
       
     </div>
     <button class="nav-toggle" aria-label="toggle navigation">
@@ -29,8 +29,14 @@
       <ul class="nav__list">
         <li class="nav__item">
           <a href="#home" class="nav__link">Home</a>
+        </li>
+        <li class="nav__item">
           <a href="#services" class="nav__link">My Services</a>
+        </li>
+        <li class="nav__item">
           <a href="#about" class="nav__link">About me</a>
+        </li>
+        <li class="nav__item">
           <a href="#work" class="nav__link">My Work</a>
         </li>
       </ul>
@@ -80,8 +86,12 @@
     Engineer & Developer from NYC
   </p>  
     <div class="about-me__body">
-      <p>Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-      <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      <p>• Energetic Software Engineer specializing in MERN, React, Node, JavaScript, TypeScript, SQL, NoSQL who loves TDD and CD/CI<br/>
+        • Developed dORM (ORM for Deno) along with brilliant engineering team members<br/>
+        • Featured in Tech talk from SingleSprout about Web servers (Apache and Ngnix)<br/>
+        • Devoted to Web Application centered in high quality UX , scalable development as well as SEO friendly.<br/>
+        • Daily Meditator with a Peaceful Mind<br/>
+        • Passionate about being a team mediator and bringing diverse ideas together</p>
     </div>
 </header>
 <img class="about_img"src="img\132336292_10217867109215455_2847885227087274984_n.jpg" alt="A picture of Myo Aung in the snow">
@@ -93,7 +103,7 @@
   <p class="section__subtitle">A selection of my range of work</p>
   <div class="portfolio">
     <!-- dORM Project -->
-    <a href="https://dorm.land/" class="portfolio__item">
+    <a href="pages/dORM.html">
       <img src="img\dORM.PNG" class="portfolio__item portfolio__img" alt="dORM:a developer tool for Deno">
     </a>
      <!-- restaurant book Project -->
@@ -111,18 +121,20 @@
   </div>
 </section>
 <!-- footer -->
-<footer>
-  <a href="mailto:myothuwinaung1991@gmail.com" class="footer-link">myothuwinaung1991@gmail.com</a>
+<footer class="footer">
+  <a href="mailto:myothuwinaung1991@gmail.com" class="footer__link">myothuwinaung1991@gmail.com</a>
   <ul class="social-list">
     <!-- linkedIn -->
     <li class="social-list__item">
-      <a href="https://www.linkedin.com/in/myo-t-aung/" class="social-list_item"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.linkedin.com/in/myo-t-aung/" class="social-list__link"><i class="fab fa-linkedin"></i></a>
     </li>
     <!-- github -->
     <li class="social-list__item">
-      <a href="https://github.com/m-aung" class="social-list_item"><i class="fab fa-github"></i></a>
+      <a href="https://github.com/m-aung" class="social-list__link"><i class="fab fa-github"></i></a>
     </li>
     </ul>
 </footer>
+<!-- JS imported -->
+<script src="js/index.js"></script>
 </body>
 </html>

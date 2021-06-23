@@ -14,6 +14,7 @@
   --clr-light: #fff;
   --clr-dark: #303030;
   --clr-accent: #1685e0;
+  --clr-decent: #16e082;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -65,6 +66,7 @@ strong {
   letter-spacing: 1.5px;
   font-weight: var(--fw-bold);
   transition: transform 200ms ease-in-out;
+  z-index: 2;
 }
 .btn:hover {
   transform: scale(1.1);
@@ -289,13 +291,18 @@ h3 {
 
 /* My services section */
 .my-services {
-  background-color: var(--clr-accent);
+  background-color: var(--clr-decent);
   background-image: url(../img/132336292_10217867109215455_2847885227087274984_n.jpg);
   background-size: cover;
+  /* filter: blur(3px);
+  -webkit-filter: blur(3px); */
+  /* height: 100%; */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
   color: var(--clr-light);
   background-blend-mode: multiply;
   text-align: center;
-  /* background-image: cross-fade(20); */
+  background-image: cross-fade(20);
 }
 
 .section__title--services {
@@ -363,20 +370,23 @@ h3 {
     grid-row: 2;
     position: relative;
     left: -1em;
-    width: calc(70vw + 2em);
+    width: calc(100% + 12.5em);
     padding-left: 1em;
-    padding-right: calc(100px + 1em);
+    padding-right: calc(200px + 4em);
   }
   .about-me__img {
     grid-area: img;
     position: relative;
-    z-index: -2;
+    z-index: 2;
   }
 }
 
 /* My Work */
 .my-work {
-  background-color: var(--clr-dark);
+  background-color: var(--clr-decent);
+  background-image: url(../img/code_image.PNG);
+  background-blend-mode: multiply;
+  background-size: cover;
   column-rule: var(--clr-light);
   text-align: center;
 }

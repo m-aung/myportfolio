@@ -140,10 +140,11 @@ h3 {
 .logo {
   max-width: 300px;
   color: var(--clr-accent);
-  text-align: left;
+  text-align: center;
   padding: 0.5em;
   font-size: var(--fs-h3);
 }
+
 .logo a {
   color: inherit;
 }
@@ -387,8 +388,8 @@ h3 {
 
 /* My Work */
 .my-work {
-  background-color: var(--clr-dark);
-  background-image: url(../img/code_image.PNG);
+  background-color: var(--clr-light);
+  background-image: url(../img/myo-logo-org.png);
   /* background-blend-mode: multiply; */
   background-size: cover;
   background-blend-mode: soft-light;
@@ -410,11 +411,12 @@ h3 {
 }
 
 .portfolio__item {
-  background: var(--clr-accent);
+  /* background: var(--clr-accent); */
   overflow: hidden;
 }
 /* image transition into */
 .portfolio__img {
+  margin: 0 auto;
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
 }
 

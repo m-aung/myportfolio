@@ -13,6 +13,7 @@
 
   --clr-light: rgb(251, 251, 234);
   --clr-dark: #414141;
+  --clr-light-dark: rgb(234, 251, 238);
   --clr-accent: #1685e0;
   --clr-decent: #16e082;
   --clr-light-text: #7bb9ec;
@@ -388,9 +389,9 @@ h3 {
 
 /* My Work */
 .my-work {
-  background-color: var(--clr-light);
-  background-image: url(../img/myo-logo-org.png);
-  /* background-blend-mode: multiply; */
+  background-color: var(--clr-light-dark);
+  /* background-image: url(../img/myo-logo-org.png); */
+  background-blend-mode: multiply;
   background-size: cover;
   background-blend-mode: soft-light;
   column-rule: var(--clr-light);

@@ -1,155 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- normalize css -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" crossorigin="anonymous">
-  <!-- font awesome css -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossorigin="anonymous">
-  <!-- google font -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-  <!-- my css link -->
-  <link rel="stylesheet" href="css/style.css">
-  <title>Myo Aung Portfolio 2021</title>
-</head>
-<body>
-  <header>
-    <div class="logo">
-      <a href="index.html" class="logo__link">
-        <img src ="img/myo-logo-cropt-150px.png"class="logo-icon"></img></a>
-      
-    </div>
-    <button class="nav-toggle" aria-label="toggle navigation">
-      <span class="hamburger"></span>
-    </button>
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__item">
-          <a href="#home" class="nav__link">Home</a>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- normalize css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      crossorigin="anonymous">
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      crossorigin="anonymous">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro&display=swap"
+      rel="stylesheet">
+    <!-- my css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Myo Aung Portfolio 2021</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html" class="logo__link">
+          <img src="img/myo-logo-cropt-150px.png" class="logo-icon"></img></a>
+
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Myo Aung</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Software Engineer</p>
+
+      <img class="intro_img" src="img\1620sp14otk8b2c7e2jg4011a.png" alt="A picture of Myo Aung smiling">
+    </section>
+    <!-- My Services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">
+        What I do
+      </h2>
+      <div class="services">
+        <div class="service">
+          <h3>RESEARCH</h3>
+          <p>
+            Understand the MVP features completely and build on the knowledge related to them, becoming intimately
+            familiar with the product. Determine methods and tools to address the specific product needs and
+            requirements.
+          </p>
+        </div>
+        <h2 class="section__title section__title--services">
+
+        </h2>
+        <div class="service">
+          <h3>DESIGN</h3>
+          <p>Ideate upon basic features as the superficial appearance of a product, design encompasses viable goals. It
+            is a cross functional process that includes testing, iteration, technical research and standardization.</p>
+        </div>
+        <h2 class="section__title section__title--services">
+        </h2>
+        <div class="service">
+          <h3>DEVELOP</h3>
+          <p>
+            Findings from the research and design phases are utilized for the production of specific products including
+            materials, technologies, systems, and methods. Engineer utilizing the research and designs to produce
+            commercial products for the customer.
+          </p>
+        </div>
+      </div>
+      <a href="#work" class="btn">My Work</a>
+    </section>
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <header>
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">
+          Engineer & Developer from NYC
+        </p>
+        <div class="about-me__body">
+          <p>• Energetic Software Engineer specializing in MERN, React, Node, JavaScript, TypeScript, SQL, NoSQL who
+            loves TDD and CD/CI<br />
+            • Developed dORM (ORM for Deno) along with brilliant engineering team members<br />
+            • Featured in Tech talk from SingleSprout about Web servers (Apache and Ngnix)<br />
+            • Devoted to Web Application centered in high quality UX , scalable development as well as SEO
+            friendly.<br />
+            • Daily Meditator with a Peaceful Mind<br />
+            • Passionate about being a team mediator and bringing diverse ideas together</p>
+        </div>
+      </header>
+      <img class="about-me__img" src="img\132336292_10217867109215455_2847885227087274984_n.jpg"
+        alt="A picture of Myo Aung in the snow">
+    </section>
+    <!-- My work -->
+    <section class="my-work" id="work">
+      <h2 class="section-subtitle__work">A selection of my range of work</h2>
+      <div class="portfolio">
+        <!-- dORM Project -->
+        <a href="pages/dORM.html">
+          <img src=".\img\dORM-logo-200x150.png" class="portfolio__item portfolio__img"
+            alt="dORM:a developer tool for Deno">
+        </a>
+        <!-- Algo-Visualizer 2021 -->
+        <a href="pages/algoVisualizer.html" class="portfolio__item portfolio__img">
+          <img src=".\img\algo-vis-logo.png" class="portfolio__item portfolio__img"
+            alt="Algo-Visualizer 2021: Sorting Algorithms">
+        </a>
+        <!-- React Boiler Plate for Authentication-->
+        <a href="pages/react-boilerplate.html" class="portfolio__item portfolio__img">
+          <img src=".\img\boilerplate-logo.png" class="portfolio__item portfolio__img"
+            alt="React Boiler Plate for Authentication">
+        </a>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+      <a href="mailto:myoa86g@gmail.com" class="footer__link">myoa86g@gmail.com</a>
+      <ul class="social-list">
+        <!-- linkedIn -->
+        <li class="social-list__item">
+          <a href="https://www.linkedin.com/in/myo-t-aung/" class="social-list__link"><i
+              class="fab fa-linkedin"></i></a>
         </li>
-        <li class="nav__item">
-          <a href="#services" class="nav__link">My Services</a>
-        </li>
-        <li class="nav__item">
-          <a href="#about" class="nav__link">About me</a>
-        </li>
-        <li class="nav__item">
-          <a href="#work" class="nav__link">My Work</a>
+        <!-- github -->
+        <li class="social-list__item">
+          <a href="https://github.com/m-aung" class="social-list__link"><i class="fab fa-github"></i></a>
         </li>
       </ul>
-    </nav>
-  </header>
-  <!-- Introduction -->
-  <section class="intro" id="home">
-    <h1 class="section__title section__title--intro">
-      Hi, I am <strong>Myo Aung</strong>
-    </h1>
-    <p class="section__subtitle section__subtitle--intro">Software Engineer</p>
-    
-    <img class="intro_img"src="img\1620sp14otk8b2c7e2jg4011a.png" alt="A picture of Myo Aung smiling">
-  </section>
-  <!-- My Services -->
-  <section class="my-services" id="services">
-    <h2 class="section__title section__title--services">
-      What I do
-    </h2>
-    <div class="services">
-      <div class="service">
-        <h3>RESEARCH</h3>
-        <p>
-          Understand the MVP features completely and build on the knowledge related to them, becoming intimately familiar with the product. Determine methods and tools to address the specific product needs and requirements.
-        </p>
-      </div>
-      <h2 class="section__title section__title--services">
-        
-      </h2>
-      <div class="service">
-        <h3>DESIGN</h3>
-        <p>Ideate upon basic features as the superficial appearance of a product, design encompasses viable goals. It is a cross functional process that includes testing, iteration, technical research and standardization.</p>
-      </div>
-      <h2 class="section__title section__title--services">
-      </h2>
-      <div class="service">
-        <h3>DEVELOP</h3>
-        <p>
-        Findings from the research and design phases are utilized for the production of specific products including materials, technologies, systems, and methods. Engineer utilizing the research and designs to produce commercial products for the customer.
-        </p>
-      </div>
-    </div>
-    <a href="#work" class="btn">My Work</a>
-  </section>
-  <!-- About me -->
-<section class="about-me" id="about">
-  <header>
-  <h2 class="section__title section__title--about">Who I am</h2>
-  <p class="section__subtitle section__subtitle--about">
-    Engineer & Developer from NYC
-  </p>  
-    <div class="about-me__body">
-      <p>• Energetic Software Engineer specializing in MERN, React, Node, JavaScript, TypeScript, SQL, NoSQL who loves TDD and CD/CI<br/>
-        • Developed dORM (ORM for Deno) along with brilliant engineering team members<br/>
-        • Featured in Tech talk from SingleSprout about Web servers (Apache and Ngnix)<br/>
-        • Devoted to Web Application centered in high quality UX , scalable development as well as SEO friendly.<br/>
-        • Daily Meditator with a Peaceful Mind<br/>
-        • Passionate about being a team mediator and bringing diverse ideas together</p>
-    </div>
-</header>
-<img class="about-me__img"src="img\132336292_10217867109215455_2847885227087274984_n.jpg" alt="A picture of Myo Aung in the snow">
-<!-- <a href=http://www.pngall.com/design-png/download/32164 target="_blank"><img src="img\Design-Elements-PNG-Picture.png" alt="Art work from pngall.com click here to visit the website" ></a> -->
-</section>
-<!-- My work -->
-<section class="my-work" id="work">
-  <!-- <h2 class="section__title">My work</h2> -->
-  <h2 class="section-subtitle__work">A selection of my range of work</h2>
-  <div class="portfolio">
-    <!-- dORM Project -->
-    <a href="pages/dORM.html" class="portfolio__item portfolio__img hide">
-      <img src=".\img\dORM-logo-200x150.png" class="portfolio__item portfolio__img" alt="dORM:a developer tool for Deno">
-    </a>
-     <!-- restaurant book Project -->
-     <a href="pages/restaurant-book.html" class="portfolio__item portfolio__img hide" >
-      <img src=".\img\RB-logo.png" class="portfolio__item portfolio__img" alt="Restaurant review book 2021">
-    </a>
-    <!-- Algo-Visualizer 2021 -->
-    <a href="pages/algoVisualizer.html" class="portfolio__item portfolio__img">
-      <img src=".\img\algo-vis-logo.png" class="portfolio__item portfolio__img" alt="Algo-Visualizer 2021: Sorting Algorithms">
-    </a>
-    <!-- React Boiler Plate for Authentication-->
-    <a href="pages/react-boilerplate.html"  class="portfolio__item portfolio__img">
-      <img src=".\img\boilerplate-logo.png" class="portfolio__item portfolio__img" alt="React Boiler Plate for Authentication">
-    </a>
-    <!--Yak Yak -->
-    <a href=""class="portfolio__item portfolio__img hide">
-      <img src=".\img\Design-Elements-PNG-Picture.png" class="portfolio__item portfolio__img" alt="Yak Yak Chating App">
-    </a>
-    <!--Free-Video-Chat -->
-    <a href="" class="portfolio__item portfolio__img hide">
-      <img src=".\img\Design-Elements-PNG-Picture.png" class="portfolio__item portfolio__img" alt="Free-Video-Chat">
-    </a>
-    <!--Dota2 Game Guide: Find your opponent easily -->
-    <a href=""  target="_blank" class="portfolio__item portfolio__img hide">
-      <img src=".\img\Design-Elements-PNG-Picture.png" class="portfolio__item portfolio__img" alt="Dota2 AI">
-    </a>
-  </div>
-</section>
-<!-- footer -->
-<footer class="footer">
-  <a href="mailto:myothuwinaung1991@gmail.com" class="footer__link">myothuwinaung1991@gmail.com</a>
-  <ul class="social-list">
-    <!-- linkedIn -->
-    <li class="social-list__item">
-      <a href="https://www.linkedin.com/in/myo-t-aung/" class="social-list__link"><i class="fab fa-linkedin"></i></a>
-    </li>
-    <!-- github -->
-    <li class="social-list__item">
-      <a href="https://github.com/m-aung" class="social-list__link"><i class="fab fa-github"></i></a>
-    </li>
-    </ul>
-</footer>
-<!-- JS imported -->
-<script src="js/index.js"></script>
-</body>
+    </footer>
+    <!-- JS imported -->
+    <script src="js/index.js"></script>
+  </body>
+
 </html>

@@ -526,3 +526,9 @@ h3 {
 .stack-item:hover {
   transform: scale(1.5);
 }
+.footer__copyright{
+  font-size: var(--fs-body);
+  margin-top: 1em;
+  color: var(--clr-light-text);
+  font-weight: var(--fw-reg);
+}
